@@ -3,7 +3,7 @@ import counterReducer from './counter.js';
 
 const store = configureStore({
   reducer: {
-
+    counter: counterReducer
   },
 });
 
